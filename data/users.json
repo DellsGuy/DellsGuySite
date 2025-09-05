@@ -1,14 +1,27 @@
 [
     {
       "name": "Hatsune Miku",
-      "img": "data/user_imgs/example_picture_miku.jpg"
+      "img": "data/user_imgs/example_picture_miku.jpg",
+      "description": "Hatsune Miku is a virtual pop star and vocaloid software voicebank developed by Crypton Future Media, known for her distinctive turquoise twin-tails and futuristic appearance."
     },
     {
       "name": "Ryan Reynolds",
-      "img": "data/user_imgs/example_picture_ryan_reynolds.jpg"
+      "img": "data/user_imgs/example_picture_ryan_reynolds.jpg",
+      "description": "Ryan Reynolds is a Canadian actor and producer known for his roles in films such as 'Deadpool', 'The Proposal', and 'Green Lantern'."
     },
     {
       "name": "Monkey D Luffy",
-      "img": "data/user_imgs/example_picture_luffy.jpg"
+      "img": "data/user_imgs/example_picture_luffy.jpg",
+      "description": "Monkey D Luffy is the main protagonist of the anime and manga series 'One Piece', known for his adventurous spirit and determination to become the Pirate King."
+    },
+    {
+      "name": "Josh Hutcherson",
+      "img": "data/user_imgs/example_picture_josh_hutcherson.jpg",
+      "description": "Josh Hutcherson is an American actor known for his roles in films such as 'The Hunger Games' series and 'Bridge to Terabithia'."
+    },
+    {
+      "name": "John Cena",
+      "img": "data/user_imgs/example_picture_john_cena.jpg",
+      "description": "John Cena is a professional wrestler, actor, and television presenter known for his charismatic personality and impressive physique."
     }
   ]
