@@ -159,7 +159,20 @@ h2 {
   font-size: 0.9rem;
 }
 
-/* Profile Header (for profile.html) */
+.member-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.member-link:hover .member_img {
+  border-color: #99ccff;
+}
+
+.member-link:hover .member_name {
+  color: #99ccff;
+}
+
+/* Profile Header (for profile.html and user-profile.html) */
 .profile-header {
   text-align: center;
   margin-bottom: 2rem;
@@ -183,7 +196,7 @@ h2 {
   color: #a3bffa;
 }
 
-/* About Section (for profile.html) */
+/* About Section (for profile.html and user-profile.html) */
 .about-section {
   background-color: #2e3b4e;
   padding: 1.5rem;
@@ -191,7 +204,7 @@ h2 {
   margin-bottom: 2rem;
 }
 
-/* Friends List (for profile.html) */
+/* Friends List (for profile.html and user-profile.html) */
 .friends-list {
   background-color: #2e3b4e;
   padding: 1.5rem;
@@ -225,7 +238,7 @@ h2 {
   font-size: 0.9rem;
 }
 
-/* Posts (for profile.html) */
+/* Posts (for profile.html and user-profile.html) */
 .posts {
   background-color: #2e3b4e;
   padding: 1.5rem;
@@ -256,7 +269,7 @@ h2 {
 
 /* Chat Interface (for messages.html) */
 .chat-container {
-  max-width: 900px; /* Increased width */
+  max-width: 900px;
   margin: 2rem auto;
   padding: 2rem;
   background-color: #2e3b4e;
@@ -274,7 +287,7 @@ h2 {
 }
 
 .chat-header img {
-  width: 120px; /* Larger image */
+  width: 120px;
   height: 120px;
   object-fit: cover;
   border-radius: 50%;
@@ -289,7 +302,7 @@ h2 {
 }
 
 .chat-box {
-  height: 500px; /* Increased height */
+  height: 500px;
   overflow-y: auto;
   border: 1px solid #3f4c6b;
   padding: 1.5rem;
@@ -308,14 +321,14 @@ h2 {
 .user-message {
   text-align: right;
   color: #ffffff;
-  background-color: #66b3ff; /* Blue for user messages */
+  background-color: #66b3ff;
   margin-left: auto;
 }
 
 .ai-message {
   text-align: left;
   color: #ffffff;
-  background-color: #3f4c6b; /* Darker for AI messages */
+  background-color: #3f4c6b;
   margin-right: auto;
 }
 
@@ -360,5 +373,5 @@ footer {
   color: #ffffff;
   text-align: center;
   padding: 1rem;
-  margin-top: auto; /* Pushes footer to bottom */
+  margin-top: auto;
 }
