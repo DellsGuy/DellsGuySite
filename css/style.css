@@ -1,0 +1,377 @@
+/* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1c2526; /* Dark teal-gray */
+  color: #d9e2e6; /* Soft off-white */
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background-color: #2e3b4e; /* Darker navy */
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header p {
+  color: #a3bffa; /* Light purple for subtitle */
+  font-size: 1.1rem;
+}
+
+/* Navigation */
+nav {
+  background-color: #2e3b4e;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #66b3ff; /* Light blue */
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #99ccff; /* Lighter blue on hover */
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  flex: 1;
+}
+
+/* Headings */
+h2 {
+  color: #ffffff;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #66b3ff;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Intro Section (for home.html) */
+.intro {
+  background-color: #2e3b4e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.intro p {
+  color: #d9e2e6;
+}
+
+/* CTA Section (for home.html) */
+.cta {
+  background-color: #2e3b4e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cta p {
+  color: #d9e2e6;
+  margin: 0.5rem 0;
+}
+
+.cta-link {
+  color: #66b3ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-link:hover {
+  color: #99ccff;
+  text-decoration: underline;
+}
+
+/* Features Section (for home.html) */
+.features {
+  background-color: #2e3b4e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  color: #d9e2e6;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/* Members Section (for home.html) */
+.members {
+  background-color: #2e3b4e;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.members-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.members-list li {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.member_img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #66b3ff;
+}
+
+.member_name {
+  color: #d9e2e6;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.member-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.member-link:hover .member_img {
+  border-color: #99ccff;
+}
+
+.member-link:hover .member_name {
+  color: #99ccff;
+}
+
+/* Profile Header (for profile.html and user-profile.html) */
+.profile-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#user_picture {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #66b3ff;
+}
+
+.profile-header h1 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #ffffff;
+}
+
+.profile-header p {
+  color: #a3bffa;
+}
+
+/* About Section (for profile.html and user-profile.html) */
+.about-section {
+  background-color: #2e3b4e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+/* Friends List (for profile.html and user-profile.html) */
+.friends-list {
+  background-color: #2e3b4e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.friends-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.friends-list li {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.chat_partner_img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #66b3ff;
+}
+
+.chat_partner_name {
+  color: #d9e2e6;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Posts (for profile.html and user-profile.html) */
+.posts {
+  background-color: #2e3b4e;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.post {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #3f4c6b;
+  border-radius: 8px;
+}
+
+.post img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post h3 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.post p {
+  color: #d9e2e6;
+}
+
+/* Chat Interface (for messages.html) */
+.chat-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #2e3b4e;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #3f4c6b;
+  border-bottom: 2px solid #66b3ff;
+  border-radius: 12px 12px 0 0;
+}
+
+.chat-header img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #66b3ff;
+  margin-right: 1.5rem;
+}
+
+.chat-header h2 {
+  border-bottom: none;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.chat-box {
+  height: 500px;
+  overflow-y: auto;
+  border: 1px solid #3f4c6b;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #1c2526;
+  border-radius: 8px;
+}
+
+.chat-box p {
+  margin: 0.75rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.user-message {
+  text-align: right;
+  color: #ffffff;
+  background-color: #66b3ff;
+  margin-left: auto;
+}
+
+.ai-message {
+  text-align: left;
+  color: #ffffff;
+  background-color: #3f4c6b;
+  margin-right: auto;
+}
+
+.chat-input {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #3f4c6b;
+  border-radius: 8px;
+  background-color: #2e3b4e;
+  color: #d9e2e6;
+  font-size: 1.1rem;
+}
+
+.chat-input input:focus {
+  outline: none;
+  border-color: #66b3ff;
+  box-shadow: 0 0 5px rgba(102, 179, 255, 0.5);
+}
+
+.chat-input button {
+  padding: 1rem 1.5rem;
+  background-color: #66b3ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.chat-input button:hover {
+  background-color: #99ccff;
+}
+
+/* Footer */
+footer {
+  background-color: #2e3b4e;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}

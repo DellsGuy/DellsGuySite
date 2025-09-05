@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>My Profile</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="messages.html">Messages</a>
+  </nav>
+
+  <div class="container">
+    <div class="profile-header">
+      <img id="user_picture" src="" alt="Profile Picture">
+      <h1 id="user_name"></h1>
+      <p>Tagline or bio goes here...</p>
+    </div>
+
+    <div class="about-section">
+      <h2>About Me</h2>
+      <p id="user_bio"></p>
+    </div>
+
+    <div class="friends-list">
+      <h2>My Friends</h2>
+      <ul>
+        <li>
+          <img class="chat_partner_img" id="chat_partner_img_1" src="" alt="Friend 1">
+          <p class="chat_partner_name" id="chat_partner_name_1"></p>
+        </li>
+        <li>
+          <img class="chat_partner_img" id="chat_partner_img_2" src="" alt="Friend 2">
+          <p class="chat_partner_name" id="chat_partner_name_2"></p>
+        </li>
+        <li>
+          <img class="chat_partner_img" id="chat_partner_img_3" src="" alt="Friend 3">
+          <p class="chat_partner_name" id="chat_partner_name_3"></p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="posts">
+      <h2>My Posts</h2>
+      <div class="post">
+        <h3>Epic WhatSpace Post - 1/2/25</h3>
+        <p>Just won the Minecraft enderdragon battle with my bestest friends!</p>
+        <img src="images/gif/minecraft_ender_dragon.gif" alt="Minecraft Ender Dragon">
+      </div>
+      <div class="post">
+        <h3>Silly WhatSpace Post - 11/11/24</h3>
+        <p>omg so silly xd wow</p>
+        <img src="images/gif/laughing.gif" alt="Laughing GIF">
+      </div>
+    </div>
+  </div>
+
+  <script src="js/users.js"></script>
+</body>
+
+<footer>
+    <p>&copy; 2025 SpaceWhat. All rights reserved.</p>
+</footer>
+</html>
