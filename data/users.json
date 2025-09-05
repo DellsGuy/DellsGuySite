@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Hatsune Miku",
+      "img": "data/user_imgs/example_picture_miku.jpg"
+    },
+    {
+      "name": "Ryan Reynolds",
+      "img": "data/user_imgs/example_picture_ryan_reynolds.jpg"
+    },
+    {
+      "name": "Monkey D Luffy",
+      "img": "data/user_imgs/example_picture_luffy.jpg"
+    }
+  ]

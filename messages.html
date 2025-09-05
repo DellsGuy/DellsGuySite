@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messages - SpaceWhat</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Messages</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="messages.html">Messages</a>
+  </nav>
+
+  <div class="chat-container">
+    <!-- Chat Header -->
+    <div class="chat-header">
+      <img id="chat-partner-img" src="" alt="Chat Partner">
+      <h2 id="chat-partner-name"></h2>
+    </div>
+
+    <!-- Chat Box -->
+    <div class="chat-box" id="chat-box">
+      <!-- Chat messages will appear here -->
+    </div>
+
+    <!-- Chat Input -->
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your message..." autofocus>
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 SpaceWhat. All rights reserved.</p>
+  </footer>
+
+  <script src="js/responses.js"></script>
+  <script src="js/messages.js"></script>
+</body>
+</html>
